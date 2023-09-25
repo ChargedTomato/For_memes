@@ -1,8 +1,11 @@
 package com.company;
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    int x;
+        Scanner console = new Scanner(System.in);
+        x = console.nextInt();
+        System.out.println(x);
     }
 }
